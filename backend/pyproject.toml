@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "f1-board-backend"
+version = "0.1.0"
+description = "A REST API for Formula1 Dashboard"
+authors = ["giraycoskun <giraycoskun@sabanciuniv.edu>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "f1_board_backend"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mkdocs-material = "^9.1.1"
+fastapi = "^0.93.0"
+uvicorn = "^0.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
